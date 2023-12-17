@@ -18,7 +18,7 @@ class ContactViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.backBarButtonItem?.title = "Back"
+
         contactNameLabel.text = person.fullName
         phoneNumberLabel.text = person.phoneNumber
         emailLabel.text = person.email
